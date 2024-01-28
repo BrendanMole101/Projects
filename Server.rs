@@ -1,5 +1,5 @@
-use std::io::{ErrorKind, Read, Write};
-use std::net::TcpListener;
+use std::io::{ErrorKind, Read, Write}; "error checking"
+use std::net::TcpListener; "TCP Connection"
 use std::sync::mpsc;
 use std::thread;
 
